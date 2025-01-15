@@ -2,7 +2,7 @@
 <h1> AllRecipes.com Scraper </h1>
 Scrapy spider to scrape recipe and nutritional data from <code>www.allrecipes.com</code>. <strong>35,516 recipes</strong> scraped, found in <code>/export</code> and output.json. 
 <br>
-Data was used to provide insight of the nutritional value of various recipes.
+Data was used to provide insight into the nutritional value of various recipes.
 </div>
 
 <br>
@@ -22,7 +22,7 @@ Data scraped for each recipe includes:
 'mono_fat_g', 'poly_fat_g', 'trans_fatty_acid_g', 'omega_3_fatty_acid_g', 'omega_6_fatty_acid_g'
 ```
 
-> *Note:* Many recipes do not list most of the nutrients from the 'Additional nutritional info'. A few nutrients aren't scraped and have been omitted from 'Additional nutritional info' due to its listing being extremely scarce.
+> *Note:* Many recipes do not list most nutrients from the 'Additional nutritional info'. A few nutrients haven't been scraped or omitted from 'Additional nutritional info' due to its extremely scarce listing.
 
 ### Example data
 ```json
